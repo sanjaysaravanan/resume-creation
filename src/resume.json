@@ -1,0 +1,32 @@
+{
+  "name": "SANJAY SARAVANAN",
+  "description": "Creative and motivated software developer with a great interest in coding",
+  "email": "sanjaysaravanan38@gmail.com",
+  "phone": "9790889427",
+  "location": "Bengaluru",
+  "github": "github.com/sanjaysaravanan",
+  "linkedin": "sanjaysaravanan21",
+  "website": "www.sanjaysaravanan.dev",
+  "experience": [
+    {
+      "role": "Software Engineer",
+      "company": "Altimetrik",
+      "start": "June 2019",
+      "end": "September 2021",
+      "responsibility": [
+        "Providing learners with the required guidance with respect to doubts in the web development",
+        "Helping learners to develop new skills that engages them and results in an environment conducive to learning."
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Altimetrik",
+      "start": "June 2019",
+      "end": "October 2021",
+      "responsibility": [
+        "Providing learners with the required guidance with respect to doubts in the web development",
+        "Helping learners to develop new skills that engages them and results in an environment conducive to learning."
+      ]
+    }
+  ]
+}
