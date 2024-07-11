@@ -1,32 +1,110 @@
 {
   "name": "SANJAY SARAVANAN",
-  "description": "Creative and motivated software developer with a great interest in coding",
+  "description": "Full-Stack developer with aspiration to learn & develop Mordern Applcations",
   "email": "sanjaysaravanan38@gmail.com",
   "phone": "9790889427",
   "location": "Bengaluru",
-  "github": "github.com/sanjaysaravanan",
+  "github": "sanjaysaravanan",
   "linkedin": "sanjaysaravanan21",
   "website": "www.sanjaysaravanan.dev",
   "experience": [
     {
       "role": "Software Engineer",
-      "company": "Altimetrik",
+      "company": "Altimetrik India Pvt Ltd",
       "start": "June 2019",
       "end": "September 2021",
-      "responsibility": [
-        "Providing learners with the required guidance with respect to doubts in the web development",
-        "Helping learners to develop new skills that engages them and results in an environment conducive to learning."
+      "responsibilities": [
+        "Junior Developer worked closely with DevOps Team creating APIs, UI for a in-house development ( DevOps Analytics )",
+        "Later maintained the repo, took responsibilties of building features based on releases."
       ]
     },
     {
-      "role": "Software Engineer",
-      "company": "Altimetrik",
-      "start": "June 2019",
-      "end": "October 2021",
-      "responsibility": [
-        "Providing learners with the required guidance with respect to doubts in the web development",
-        "Helping learners to develop new skills that engages them and results in an environment conducive to learning."
+      "role": "Front-End Engineer",
+      "company": "Encora Innovation Labs",
+      "start": "October 2021",
+      "responsibilities": [
+        "Upgraded a old E-Commerce site to use NodeJS, React & Typescript.",
+        "Took responsibiliy for the Front-End codes and lead two other developers."
       ]
     }
+  ],
+  "projects": [
+    {
+      "title": "Graph Generation Tool",
+      "techs": "React, Python, MongoDB, FastAPI",
+      "details": [
+        "Use pandas to extract the columns & rows from Excel Sheet.",
+        "Generate graphs & charts using the data extracted",
+        "Source Code: https://github.com/sanjaysaravanan/dashboard-api, https://github.com/sanjaysaravanan/dahsboard"
+      ]
+    },
+    {
+      "title": "Expense Tracker",
+      "techs": "Angular, NodeJS, SQL, Express",
+      "details": [
+        "Input the Details about the expense and income.",
+        "Use charts and graphs to showcase important parameters on expense & income",
+        "Source Code: https://github.com/sanjaysaravanan/expense-tracker"
+      ]
+    },
+    {
+      "title": "Games & Apps",
+      "techs": "HTML, CSS, JS, React, Angular",
+      "details": [
+        "ToDo Application with localStorage",
+        "Games like snake, tic-tac-toe using HTML, CSS, JS",
+        "Source Code: https://github.com/sanjaysaravanan/todo-app-angular"
+      ]
+    }
+  ],
+  "education": [
+    {
+      "title": "B.E in ECE",
+      "college": "Rajalakshmi Eng. College",
+      "year": "April 2019",
+      "mark": "CGPA: 7.5"
+    },
+    {
+      "title": "Class XII",
+      "college": "NSN Group of Schools",
+      "year": "April 2015",
+      "mark": "Per: 91.5%"
+    },
+    {
+      "title": "Class X",
+      "college": "NSN Group of Schools",
+      "year": "April 2013",
+      "mark": "Per: 90.5%"
+    }
+  ],
+  "skills": [
+    "HTML",
+    "CSS",
+    "JavaScript",
+    "Typescript",
+    "React",
+    "NextJS",
+    "Angular",
+    "Node",
+    "Python",
+    "Flask",
+    "MongoDB",
+    "Docker",
+    "Postman",
+    "AWS",
+    "ReactNative",
+    "SQL",
+    "AI-Tools",
+    "GPT"
+  ],
+  "certifications": [
+    "Programming, Data Structures and Algorithms Using Python(NPTEL)",
+    "Introduction To Modern Application Development(NPTEL)",
+    "Business Analytics & Text Mining Modeling Using Python",
+    "Salesforce Developer - JavaScript Developer I"
+  ],
+  "achievements": [
+    "Developed, Deployed & Hosted www.sanjaysaravanan.dev using NextJS",
+    "Salesforce Certified JavaScript Developer"
   ]
 }
