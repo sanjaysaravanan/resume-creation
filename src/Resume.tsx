@@ -1,5 +1,7 @@
 import React from "react";
 
+import parse from "html-react-parser";
+
 import resume from "./resume.json";
 
 import "./resume.css";
@@ -39,9 +41,11 @@ type ExpProp = {
   end?: string;
   responsibilities: string[];
   showDate?: boolean;
+  link?: string;
 };
 
 const Experience: React.FC<ExpProp> = ({
+  link,
   role,
   company,
   start,
@@ -51,7 +55,19 @@ const Experience: React.FC<ExpProp> = ({
 }) => {
   return (
     <div className="exp">
-      <h5 className="my-1">{role}</h5>
+      <div style={{ display: "felx", alignItems: "center" }}>
+        <h5 style={{ display: "inline-block" }} className="my-1">
+          {role}
+        </h5>{" "}
+        {link && (
+          <>
+            |{" "}
+            <a className="custom-color" target="_blank" href={link}>
+              Link
+            </a>
+          </>
+        )}
+      </div>
       <h6 className="custom-color my-1">{company}</h6>
       {showDate && (
         <span style={{ fontSize: "12px" }}>
@@ -62,7 +78,7 @@ const Experience: React.FC<ExpProp> = ({
       <ul style={{ paddingLeft: 24 }}>
         {responsibilities.map((res) => (
           <li key={res} style={{ fontSize: "13px", fontWeight: 500 }}>
-            {res}
+            {parse(res)}
           </li>
         ))}
       </ul>
@@ -226,6 +242,7 @@ const sections = [
             role={proj.title}
             responsibilities={proj.details}
             showDate={false}
+            link={proj.projLink}
           />
         ))}
       </>
