@@ -1,0 +1,124 @@
+{
+  "name": "SANJAY SARAVANAN",
+  "description": "Results-driven Software Engineer with 5+ years of experience in designing, developing, and mainting complex software solutions. Proficient in full-stack development, cloud technologies, and DevOps practices. Adept at collaborating in agile environments to deliver high-quality software products.",
+  "email": "sanjaysaravanan38@gmail.com",
+  "phone": "9790889427",
+  "location": "Bengaluru",
+  "github": "sanjaysaravanan",
+  "linkedin": "sanjaysaravanan21",
+  "website": "www.sanjaysaravanan.dev",
+  "experience": [
+    {
+      "role": "Full-Stack Engineer",
+      "company": "Encora Innovation Labs",
+      "start": "October 2021",
+      "responsibilities": [
+        "<b>Upgraded the old E-Commerce site</b> using NodeJS, React & Typescript.",
+        "<b>Setup the entire Front-End/APIs codes</b> & lead two other developers.",
+        "<b>No P1 or P2 bugs found</b> on Production"
+      ]
+    },
+    {
+      "role": "Software Engineer",
+      "company": "Altimetrik India Pvt Ltd",
+      "start": "June 2019",
+      "end": "September 2021",
+      "responsibilities": [
+        "Junior Developer working on <b>APIs & UI</b> in parallel for a in-house development ( DevOps Analytics )",
+        "Took <b>ownership</b> on the front-end codebase & Features were released <b>fast & frequently</b>"
+      ]
+    }
+  ],
+  "projects": [
+    {
+      "title": "Graph Generation Tool",
+      "projLink": "https://flourishing-meerkat-370485.netlify.app",
+      "details": [
+        "Source Code: <a href='https://github.com/sanjaysaravanan/dahsboard' target='_blank'>https://github.com/sanjaysaravanan/dahsboard</a>",
+        "Extract the columns & rows from <b>Excel Sheet, CSV, JSON</b> using Python(Pandas, Numpy, Fast-API)",
+        "Generate graphs & charts with the data using <b>NodeJS, React, Re-Charts</b>"
+      ],
+      "year": "May 2022"
+    },
+    {
+      "title": "Expense Tracker",
+      "projLink": "https://soft-florentine-1e2eef.netlify.app",
+      "details": [
+        "Source Code: <a href='https://github.com/sanjaysaravanan/expense-tracker' target='_blank'>https://github.com/sanjaysaravanan/expense-tracker</a>",
+        "Use charts and graphs to showcase important parameters on expense & income"
+      ],
+      "year": "December 2023"
+    },
+    {
+      "title": "Games & Apps",
+      "projLink": "https://phenomenal-cactus-c80763.netlify.app",
+      "details": [
+        "ToDo application using <b>Angular & Typescript</b>",
+        "Chat application using <b>React & JavaScript</b>",
+        "Games like snake, tic-tac-toe using <b>HTML, CSS, JS</b>"
+      ],
+      "year": "June 2019"
+    }
+  ],
+  "education": [
+    {
+      "title": "Bachelor of Engineering (Electonics & Communication)",
+      "college": "Rajalakshmi Engineering College",
+      "start": "August 2015",
+      "year": "April 2019",
+      "mark": "CGPA: 7.5"
+    },
+    {
+      "title": "Class 12th - State Board",
+      "college": "NSN Group of Schools",
+      "start": "June 2014",
+      "year": "April 2015",
+      "mark": "Percentage: 91.5%"
+    },
+    {
+      "title": "Class 10th - State Board",
+      "college": "NSN Group of Schools",
+      "start": "June 2012",
+      "year": "April 2013",
+      "mark": "Percentage: 90.5%"
+    }
+  ],
+  "skills": {
+    "Programming Language": [
+      "JavaScript",
+      "Python"
+    ],
+    "Web Development": [
+      "HTML",
+      "CSS",
+      "NodeJS",
+      "React",
+      "Angular",
+      "Express",
+      "Flask",
+      "Fast-API",
+      "NextJS",
+      "Typescript"
+    ],
+    "DevOps": [
+      "Docker",
+      "K8s",
+      "Jenkins",
+      "AWS",
+      "GCP"
+    ],
+    "Databases": [
+      "MySQL",
+      "MongoDB"
+    ]
+  },
+  "certifications": [
+    "Introduction To Modern Application Development(NPTEL)",
+    "Business Analytics & Text Mining Modeling Using Python",
+    "Salesforce Certified JavaScript Developer I"
+  ],
+  "achievements": [
+    "<b>Trendsetter</b> at Altimetrik for learning & picking up React & Python",
+    "<b>Budding Star</b> at Encora for making the old site responsive a  important requirement from the Client"
+  ]
+}
